@@ -10,7 +10,7 @@ namespace MINSEO { // 네임 스페이스 내 선언에 접근
         cout << real << "+" << img << "j" << endl;
     }
 
-    // 복소수 더한 값을 새로운 객체로 생성해서 반환해줌, 이때는 true값을 줘서 생성자 출력 문구 방지함.
+    // 복소수 더한 값을 새로운 객체로 생성해서 반환해줌
     Complex ComplexAdd(Complex c1, Complex c2) {
         Complex c;
         c.img = c1.img + c2.img;
