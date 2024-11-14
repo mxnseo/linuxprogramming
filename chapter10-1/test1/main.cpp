@@ -15,9 +15,9 @@ int main() { // 메인 함수 선언
 	double b[4] = { 3.14, 1.5, -6.0, 0.5 };
 	char c[3] = { 'a', 'x', 'p' };
 
-	cout << "정수 배열의 최대값은 " << getmax(a, 5) << endl; // 함수 호출
-	cout << "실수 배열의 최대값은 " << getmax(b, 4) << endl;
-	cout << "문자 배열의 최대값은 " << getmax(c, 3) << endl;
+	cout << "정수 배열의 최대값은 " << getmax<int>(a, 5) << endl; // 함수 호출
+	cout << "실수 배열의 최대값은 " << getmax<double>(b, 4) << endl;
+	cout << "문자 배열의 최대값은 " << getmax<char>(c, 3) << endl;
 
 	return 0; // 0 반환 후 종료
 }
